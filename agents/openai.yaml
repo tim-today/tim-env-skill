@@ -1,0 +1,7 @@
+interface:
+  display_name: "tim-env"
+  short_description: "Manage SDKs, services, lifecycle commands, and deployments"
+  default_prompt: "Use $tim-env to organize this project's SDKs, lifecycle commands, service connections and credential references, SSH access, directories, URLs, builds, and deployments by environment. Store records in ~/.tim-env, match projects by canonical path, migrate legacy in-project .tim-env records, and check Git and release exclusions."
+
+policy:
+  allow_implicit_invocation: true
